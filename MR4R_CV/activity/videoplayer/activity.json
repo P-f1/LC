@@ -1,0 +1,26 @@
+{
+	"name": "flogo-tello-videoplayer",
+	"type": "flogo:activity",
+	"ref": "github.com/TIBCOSoftware/MR4R_CV/activity/videoplayer",
+	"version": "0.0.1",
+	"title": "Video Player",
+	"return": true,
+	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/activity/videoplayer",
+	"display": {
+		"category": "MR4R_CV",
+		"visible": true,
+		"smallIcon": "videoplayer.png",
+		"description": "This activity play video data"
+	},
+	"settings": [
+	],
+	"input":[
+		{
+			"name": "Video",
+			"description":"the Video fragment to player", 
+			"type": "string"
+		}
+	],
+	"output": [
+	]
+}

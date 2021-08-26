@@ -1,0 +1,43 @@
+{
+	"name": "flogo-blakjackwebcam",
+	"type": "flogo:trigger",
+	"ref": "github.com/TIBCOSoftware/MR4R_CV/trigger/blakjackwebcam",
+	"version": "0.0.1",
+	"title": "Webcam Video Receiver II",
+	"description": "Video receiver using blakjackwebcam library",
+	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/trigger/blakjackwebcam",
+	"display": {
+		"category": "MR4R_CV",
+		"visible": true,
+		"smallIcon": "blakjackwebcam.png",
+		"description": "Video receiver for web"
+	},
+    "outputs": [
+		{
+            "name": "VideoFrame",
+            "type": "string"
+		},
+		{
+			"name": "OutputFrameWidth",
+			"type": "integer"
+		},
+		{
+			"name": "OutputFrameHeight",
+			"type": "integer"
+		}
+    ],
+	"handler": {
+		"settings": [
+			{
+				"name": "DeviceID",
+				"type": "string",
+				"display": {
+					"name": "Device ID",
+					"description": "Device ID",
+        				"visible": true
+				},
+            		"allowed": ["/dev/video0", "/dev/video1", "/dev/video2", "/dev/video3"]
+			}
+		]
+	}
+}

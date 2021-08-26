@@ -1,0 +1,71 @@
+{
+  "name": "tibco-deployment",
+  "title": "K8s Virtual Cluster",
+  "author": "TIBCO Software Inc.",
+  "type": "flogo:connector",
+  "version": "1.0.0",
+  "display": {
+    "description": "This is a kubernetes deployment",
+    "category": "Kubernetes",
+    "visible": true,
+    "smallIcon": "deployment.png"
+  },
+  "ref": "github.com/TIBCOSoftware/Kubernetes/connector/deployment",
+  "keyfield": "name",
+  "settings": [
+    {
+      "name": "name",
+      "type": "string",
+      "required": true,
+      "display": {
+        "name": "Context Name",
+        "description": "Context Name"
+      }
+    },
+    {
+		"name": "description",
+		"type": "string",
+		"display": {
+			"name": "Description",
+			"description": "Deployment description"
+		}
+    },
+    {
+		"name": "namespace",
+		"type": "string",
+		"required": true,
+		"display": {
+			"name": "Namespace",
+			"description": "Cluster Namespace",
+			"appPropertySupport": true
+		}
+    },
+    {
+		"name": "kubeconfigPath",
+		"type": "string",
+		"display": {
+			"name": "Kubeconfig Path",
+			"description": "Configurer description"
+		}
+    },
+    {
+		"name": "template",
+		"type": "string",
+		"required": true,
+		"display": {
+			"name": "Deployment Template",
+			"description": "Kubernetes deployment template",
+			"type": "fileselector", 
+			"fileExtensions": [".ymal", ".yml",".json"] 
+		}
+    }
+  ],
+  "actions": [
+    {
+      "name": "Connect",
+      "display": {
+        "readonly": true
+      }
+    }
+  ]
+}

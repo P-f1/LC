@@ -1,0 +1,53 @@
+{
+	"name": "httpredirect",
+	"type": "flogo:trigger",
+	"ref": "github.com/TIBCOSoftware/ModelOps/trigger/httpredirect",
+	"version": "0.0.1",
+	"title": "HTTP Redirect",
+	"description": "This trigger redirects HTTP request",
+	"homepage": "https://github.com/TIBCOSoftware/ModelOps/trigger/httpredirect",
+	"display": {
+		"category": "ModelOps",
+		"visible": true,
+		"smallIcon": "httpredirect.png",
+		"description": "This trigger redirect http request"
+	},
+	"handler": {
+		"settings": [
+    		{
+      			"name": "Port",
+      			"required": true,
+				"type": "string",
+				"display": {
+					"name": "Port",
+      				"description" : "The port for the trigger to listen to"
+				}
+    		},
+    		{
+      			"name": "Path",
+      			"required": true,
+				"type": "string",
+				"display": {
+					"name": "Path",
+      				"description" : "The resource path you have selected. Use {} to configure path parameters. e.g. /users/{id}"
+				}
+    		}
+		]
+	},
+    "outputs": [
+		{
+            "name": "RequestURL",
+            "type": "string"
+		}
+    ],
+    "reply": [
+    	{
+    		"name": "RedirectURL",
+    		"type": "string",
+	    	"display": {
+    			"description": "Redirect URL",
+    			"name": "Redirect URL"
+    		}
+    	}
+    ]
+}

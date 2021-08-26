@@ -1,0 +1,55 @@
+{
+    "name": "yamldeployer",
+    "version": "1.0.0",
+    "title": "K8s YAML Deployer",
+    "author": "TIBCO Software Inc.",
+    "type": "flogo:activity",
+    "display": {
+       "category": "Kubernetes",
+       "visible": true,
+       "smallIcon": "yamldeployer.png",
+       "description": "This activity deploy application to kubernetes"
+    },
+	"ref": "github.com/TIBCOSoftware/Kubernetes/activity/yamldeployer",
+	"settings": [
+		{
+			"name": "Cluster",
+			"type": "object",
+			"required": true,
+			"display": {
+				"name": "Kubenetes Cluster",
+				"description": "Kubenetes Cluster",
+				"type": "connection"
+			},
+			"allowed": []
+		}
+	],
+    "inputs": [
+ 		{
+			"name": "Command",
+			"type": "string"
+		},
+ 		{
+			"name": "Kind",
+			"type": "string"
+		},
+ 		{
+			"name": "Name",
+			"type": "string"
+		},
+ 		{
+			"name": "YAMLDescriptor",
+			"type": "string"
+		}
+    ],
+	"outputs": [
+		{
+			"name": "Response",
+			"type": "object"
+		},
+		{
+			"name": "ErrorMessage",
+			"type": "string"
+		}
+	]
+}

@@ -1,0 +1,88 @@
+{
+	"name": "flogo-modelrunner",
+	"type": "flogo:activity",
+	"ref": "github.com/TIBCOSoftware/ModelOps/activity/modelrunner",
+	"version": "0.0.1",
+	"title": "modelrunner",
+	"display": {
+    		"category": "ModelOps",
+    		"visible": true,
+    		"smallIcon": "modelrunner.png",
+  		"description": "modelrunner field from input to output"
+	},
+	"settings": [
+		{
+			"name": "Name",
+			"type": "string",
+			"required": true,
+			"display": {
+				"name": "Name",
+				"description": "Name of model runner instance"
+			}
+    	},
+		{
+			"name": "BuildDockerImage",
+			"type": "boolean",
+			"display": {
+				"name": "BuildDockerImage",
+				"description": "Build docker image"
+			},
+			"value": false,
+			"required": true
+		},
+		{
+			"name": "DockerImage",
+			"type": "string",
+			"required": true,
+			"display": {
+				"name": "Docker Image",
+				"description": "Docker image of model runner"
+			}
+    		},
+		{
+			"name": "Properties",
+			"type": "array",
+			"required": true,
+			"display": {
+				"name": "Properties",
+				"description": "Properties of model runner",
+				"type": "table",
+				"schema": "{\r\n    \"$schema\": \"http:\/\/json-schema.org\/draft-04\/schema#\",\r\n    \"definitions\": {},\r\n    \"id\": \"http:\/\/example.com\/example.json\",\r\n    \"items\": {\r\n        \"id\": \"\/items\",\r\n        \"properties\": {\r\n            \"Name\": {\r\n                \"id\": \"\/items\/properties\/Name\",\r\n                \"type\": \"string\"\r\n            },\r\n            \"Value\": {\r\n                \"id\": \"\/items\/properties\/Value\",\r\n                \"type\": \"string\"\r\n            }\r\n        },\r\n        \"type\": \"object\"\r\n    },\r\n    \"type\": \"array\"\r\n}"
+			}
+		},
+		{
+			"name": "InputFields",
+			"type": "array",
+			"required": true,
+			"display": {
+				"name": "Input Data Fields",
+				"description": "Name and type of input fields",
+				"type": "table",
+				"schema": "{\r\n    \"$schema\": \"http:\/\/json-schema.org\/draft-04\/schema#\",\r\n    \"definitions\": {},\r\n    \"id\": \"http:\/\/example.com\/example.json\",\r\n    \"items\": {\r\n        \"id\": \"\/items\",\r\n        \"properties\": {\r\n            \"Name\": {\r\n                \"id\": \"\/items\/properties\/Name\",\r\n                \"type\": \"string\"\r\n            },\r\n            \"Type\": {\r\n                \"id\": \"\/items\/properties\/Type\",\r\n                \"type\": {\"enum\":[\"String\", \"Integer\", \"Long\", \"Double\", \"Boolean\", \"Date\"]}\r\n            }\r\n        },\r\n        \"type\": \"object\"\r\n    },\r\n    \"type\": \"array\"\r\n}"
+			}
+		},
+		{
+			"name": "OutputFields",
+			"type": "array",
+			"required": true,
+			"display": {
+				"name": "Output Data Fields",
+				"description": "Name and type of output fields",
+				"type": "table",
+				"schema": "{\r\n    \"$schema\": \"http:\/\/json-schema.org\/draft-04\/schema#\",\r\n    \"definitions\": {},\r\n    \"id\": \"http:\/\/example.com\/example.json\",\r\n    \"items\": {\r\n        \"id\": \"\/items\",\r\n        \"properties\": {\r\n            \"Name\": {\r\n                \"id\": \"\/items\/properties\/Name\",\r\n                \"type\": \"string\"\r\n            },\r\n            \"Type\": {\r\n                \"id\": \"\/items\/properties\/Type\",\r\n                \"type\": {\"enum\":[\"String\", \"Integer\", \"Long\", \"Double\", \"Boolean\", \"Date\"]}\r\n            }\r\n        },\r\n        \"type\": \"object\"\r\n    },\r\n    \"type\": \"array\"\r\n}"
+			}
+		}
+	],
+	"input":[
+		{
+			"name": "DataIn",
+			"type": "complex_object"
+		}
+	],
+	"output": [
+		{
+            "name": "DataOut",
+            "type": "complex_object"
+		}
+	]
+}

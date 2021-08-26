@@ -1,0 +1,36 @@
+{
+	"name": "videoserver",
+	"type": "flogo:trigger",
+	"ref": "github.com/TIBCOSoftware/MR4R_CV/trigger/videoserver",
+	"version": "0.0.1",
+	"title": "VideoServer",
+	"description": "Video Stream Server",
+	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/trigger/videoserver",
+	"display": {
+		"category": "MR4R_CV",
+		"visible": true,
+		"smallIcon": "videoserver.png",
+		"description": "This trigger serves streaming video"
+	},
+    "outputs": [
+		{
+            "name": "Request",
+            "type": "string"
+		}
+    ],
+	"handler": {
+		"settings": [
+			{
+        			"name": "Connection",
+        			"type": "object",
+        			"required": true,
+        			"display":{
+        				"name": "Video Stream Service Connection",
+        				"description": "Select Video Stream Service Connection",
+        				"type": "connection"
+        			},
+        			"allowed":[]
+			}
+		]
+	}
+}

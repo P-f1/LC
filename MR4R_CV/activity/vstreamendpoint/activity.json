@@ -1,0 +1,38 @@
+{
+	"name": "flogo-video-endpoint",
+	"type": "flogo:activity",
+	"ref": "github.com/TIBCOSoftware/MR4R_CV/activity/vstreamendpoint",
+	"version": "0.0.1",
+	"title": "Video Stream EndPoint",
+	"return": true,
+	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/activity/vstreamendpoint",
+	"display": {
+		"category": "MR4R_CV",
+		"visible": true,
+		"smallIcon": "vstreamendpoint.png",
+		"description": "This activity reply streaming video to client"
+	},
+	"settings": [
+		{
+        		"name": "Connection",
+        		"type": "object",
+        		"required": true,
+        		"display":{
+        			"name": "Video Stream Connection",
+        			"description": "Select Video Stream Connection",
+        			"type": "connection"
+        		},
+        		"allowed":[]
+		}
+	],
+	"input":[
+		{
+			"name": "StreamId",
+			"type": "string"
+		},
+		{
+			"name": "Video",
+			"type": "string"
+		}
+	]
+}

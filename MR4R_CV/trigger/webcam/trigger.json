@@ -1,0 +1,43 @@
+{
+	"name": "flogo-mr4r-webcam",
+	"type": "flogo:trigger",
+	"ref": "github.com/TIBCOSoftware/MR4R_CV/trigger/webcam",
+	"version": "0.0.1",
+	"title": "Webcam Video Receiver",
+	"description": "Video receiver for webcam",
+	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/trigger/webcam",
+	"display": {
+		"category": "MR4R_CV",
+		"visible": true,
+		"smallIcon": "webcam.png",
+		"description": "Video receiver for web"
+	},
+    "outputs": [
+		{
+            "name": "VideoFrame",
+            "type": "string"
+		},
+		{
+			"name": "OutputFrameWidth",
+			"type": "integer"
+		},
+		{
+			"name": "OutputFrameHeight",
+			"type": "integer"
+		}
+    ],
+	"handler": {
+		"settings": [
+			{
+				"name": "DeviceID",
+				"type": "string",
+				"display": {
+					"name": "Device ID",
+					"description": "Device ID",
+        				"visible": true
+				},
+            		"allowed": ["0", "1", "2", "3"]
+			}
+		]
+	}
+}

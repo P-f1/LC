@@ -1,0 +1,91 @@
+{
+    "name": "dockerimagebuilder",
+    "version": "1.0.0",
+    "title": "Docker Image Builder",
+    "author": "TIBCO Software Inc.",
+    "type": "flogo:activity",
+    "display": {
+       "category": "ModelOps",
+       "visible": true,
+       "smallIcon": "dockerimagebuilder.png",
+       "description": "This activity build docker image from Dockerfile"
+    },
+	"ref": "github.com/TIBCOSoftware/ModelOps/activity/dockerimagebuilder",
+	"settings": [{
+		"name": "APIVersion",
+		"type": "string",
+		"required": true,
+		"allowed" : ["v1.22"],
+		"display": {
+			"name": "API Version",
+			"description": "API Version"
+		}
+	},
+	{
+		"name": "Command",
+		"type": "string",
+		"required": true,
+		"allowed" : ["build", "push"],
+		"display": {
+			"name": "Command",
+			"description": "Command"
+		}
+	},
+	{
+		"name": "UseRESTful",
+		"type": "boolean",
+		"display": {
+			"name": "Use RESTful Service",
+			"description": "Select true will use RESTful service"
+		},
+		"value": false
+	},
+	{
+		"name": "DockerHost",
+		"type": "string",
+		"display": {
+			"name": "Docker Host",
+			"description": "Docker host URL"
+		}
+	},
+	{
+		"name": "DockerSocket",
+		"type": "string",
+		"display": {
+			"name": "Docker Socket",
+			"description": "Docker socket file"
+		}
+	}],
+    "inputs": [
+ 		{
+			"name": "ImageName",
+			"type": "string"
+		},
+ 		{
+			"name": "ImageTag",
+			"type": "string"
+		},
+ 		{
+			"name": "DockerFile",
+			"type": "string"
+		},
+ 		{
+			"name": "WorkingFolder",
+			"type": "string"
+		}
+    ],
+	"outputs": [
+ 		{
+			"name": "Success",
+			"type": "bool"
+		},
+ 		{
+			"name": "Message",
+			"type": "object"
+		},
+ 		{
+			"name": "ErrorCode",
+			"type": "int"
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+    "name": "pjaircmdconverter",
+    "version": "1.0.0",
+    "title": "Proj Air CMD Converter",
+    "author": "TIBCO Software Inc.",
+    "type": "flogo:activity",
+    "display": {
+       "category": "Kubernetes",
+       "visible": true,
+       "smallIcon": "pjaircmdconverter.png",
+       "description": "This activity conver air UI command to kubernetes deploy descriptor"
+    },
+	"ref": "github.com/TIBCOSoftware/Kubernetes/activity/pjaircmdconverter",
+	"settings": [
+	],
+    "inputs": [
+ 		{
+			"name": "Command",
+			"type": "string"
+		},
+ 		{
+			"name": "ApplicationID",
+			"type": "string"
+		},
+ 		{
+			"name": "ContainerName",
+			"type": "string"
+		},
+ 		{
+			"name": "DockerImage",
+			"type": "string"
+		},
+ 		{
+			"name": "Replicas",
+			"type": "integer"
+		},
+ 		{
+			"name": "Components",
+			"type": "complex_object"
+		}
+    ],
+	"outputs": [
+ 		{
+			"name": "DeployDescriptor",
+			"type": "complex_object"
+		}
+	]
+}

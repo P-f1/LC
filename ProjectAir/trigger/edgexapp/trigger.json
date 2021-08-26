@@ -1,0 +1,63 @@
+{
+	"name": "edgexapp",
+	"type": "flogo:trigger",
+	"ref": "github.com/TIBCOSoftware/ProjectAir/trigger/edgexapp",
+	"version": "0.0.1",
+	"title": "EdgeX App Event",
+	"description": "This trigger listens to EdgeX Event for app",
+	"homepage": "https://github.com/TIBCOSoftware/ProjectAir/trigger/edgexapp",
+	"display": {
+		"category": "ProjectAir",
+		"visible": true,
+		"smallIcon": "httpredirect.png",
+		"description": "This trigger listens to EdgeX Event for app"
+	},
+  "settings": [
+    {
+      			"name": "Port",
+      			"required": true,
+				"type": "string",
+				"display": {
+					"name": "Port",
+      				"description" : "The port for the trigger to listen to"
+				}
+    		}
+  ],
+  "output": [
+		{
+            "name": "Event",
+            "type": "object"
+		}
+  ],
+  "reply": [
+    {
+      "name": "code",
+      "type": "int",
+      "description": "The http code to reply with"
+    },
+    {
+      "name": "data",
+      "type": "complex_object",
+      "display": {
+        "name": "Reply Data Schema",
+        "description": "The reply data schema of the trigger",
+        "type": "texteditor",
+        "syntax": "json",
+        "mappable": true
+      }
+    }
+  ],
+  "handler": {
+    "settings": [
+      {
+      			"name": "Path",
+      			"required": true,
+				"type": "string",
+				"display": {
+					"name": "Path",
+      				"description" : "The resource path you have selected. Use {} to configure path parameters. e.g. /users/{id}"
+				}
+    		}
+    ]
+  }
+}
