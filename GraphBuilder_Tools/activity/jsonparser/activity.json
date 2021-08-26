@@ -1,7 +1,7 @@
 {
 	"name": "flogo-jsonparser",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/GraphBuilder_Tools/activity/jsonparser",
+	"ref": "github.com/P-f1/LC/GraphBuilder_Tools/activity/jsonparser",
 	"version": "0.0.1",
 	"title": "JSON Parser",
 	"display": {

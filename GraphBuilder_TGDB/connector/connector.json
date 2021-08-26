@@ -10,7 +10,7 @@
     "visible": true,
     "smallIcon": "tgdb.png"
   },
-  "ref": "github.com/TIBCOSoftware/GraphBuilder_TGDB/connector/tgdb",
+  "ref": "github.com/P-f1/LC/GraphBuilder_TGDB/connector/tgdb",
   "keyfield": "name",
   "settings": [
     {

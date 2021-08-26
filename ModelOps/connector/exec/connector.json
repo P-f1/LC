@@ -10,7 +10,7 @@
 		"visible": true,
 		"smallIcon": "exec.png"
 	},
-	"ref": "github.com/TIBCOSoftware/ModelOps/connector/exec",
+	"ref": "github.com/P-f1/LC/ModelOps/connector/exec",
 	"keyfield": "name",
 	"settings": [
 		{

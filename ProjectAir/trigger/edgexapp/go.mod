@@ -1,8 +1,8 @@
-module github.com/TIBCOSoftware/labs-modelops-contrib/air/trigger/edgexapp
+module github.com/P-f1/LC/labs-modelops-contrib/air/trigger/edgexapp
 
 go 1.13
 
-replace github.com/TIBCOSoftware/labs-modelops-contrib/air/trigger/edgexapp/eventhandler => ./edgexapp/eventhandler
+replace github.com/P-f1/LC/labs-modelops-contrib/air/trigger/edgexapp/eventhandler => ./edgexapp/eventhandler
 
 require (
 	github.com/edgexfoundry/app-functions-sdk-go v1.2.0

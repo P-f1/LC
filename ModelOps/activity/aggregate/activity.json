@@ -8,7 +8,7 @@
        "category": "ModelOps",
        "visible": true
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/aggregate",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/aggregate",
   "settings": [
     {
       "name": "function",

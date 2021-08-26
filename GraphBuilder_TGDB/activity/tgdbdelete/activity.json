@@ -12,7 +12,7 @@
        "description": "This activity delete entity from tgdb"
     },
  
-    "ref": "github.com/TIBCOSoftware/GraphBuilder_TGDB/activity/tgdbdelete",
+    "ref": "github.com/P-f1/LC/GraphBuilder_TGDB/activity/tgdbdelete",
     "settings": [
 		{
             "name": "tgdbConnection",

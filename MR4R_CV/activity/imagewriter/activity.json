@@ -1,11 +1,11 @@
 {
 	"name": "flogo-mr4r-imagewriter",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/MR4R_CV/activity/imagewriter",
+	"ref": "github.com/P-f1/LC/MR4R_CV/activity/imagewriter",
 	"version": "0.0.1",
 	"title": "Image Writer",
 	"return": true,
-	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/activity/imagewriter",
+	"homepage": "https://github.com/P-f1/LC/MR4R_CV/activity/imagewriter",
 	"display": {
 		"category": "MR4R_CV",
 		"visible": true,

@@ -1,11 +1,11 @@
 {
 	"name": "flogo-video-endpoint",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/MR4R_CV/activity/vstreamendpoint",
+	"ref": "github.com/P-f1/LC/MR4R_CV/activity/vstreamendpoint",
 	"version": "0.0.1",
 	"title": "Video Stream EndPoint",
 	"return": true,
-	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/activity/vstreamendpoint",
+	"homepage": "https://github.com/P-f1/LC/MR4R_CV/activity/vstreamendpoint",
 	"display": {
 		"category": "MR4R_CV",
 		"visible": true,

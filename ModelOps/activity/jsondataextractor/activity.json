@@ -1,7 +1,7 @@
 {
 	"name": "flogo-jsondataextractor",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/jsondataextractor",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/jsondataextractor",
 	"version": "0.0.1",
 	"title": "JSON Data Extractor",
 	"display": {

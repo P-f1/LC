@@ -8,9 +8,9 @@ package factory
 import (
 	"sync"
 
-	"github.com/TIBCOSoftware/flogo-lib/logger"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/dgraph/services"
+	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/dgraph/services"
 )
 
 var log = logger.GetLogger("dgraph-service")

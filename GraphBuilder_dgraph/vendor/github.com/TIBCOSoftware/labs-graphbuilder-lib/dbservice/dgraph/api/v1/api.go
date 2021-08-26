@@ -17,8 +17,8 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/TIBCOSoftware/flogo-lib/logger"
-	apiInterface "github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/dgraph/api"
+	"github.com/P-f1/LC/flogo-lib/logger"
+	apiInterface "github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/dgraph/api"
 )
 
 var log = logger.GetLogger("dgraph-service")

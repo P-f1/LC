@@ -1,4 +1,4 @@
-module github.com/TIBCOSoftware/ModelOps/activity/aggregate
+module github.com/P-f1/LC/ModelOps/activity/aggregate
 
 require (
 	github.com/project-flogo/core v0.10.1

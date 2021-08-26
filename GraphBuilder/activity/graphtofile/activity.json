@@ -12,7 +12,7 @@
        "description": "This activity write graph to file system"
     },
  
-    "ref": "github.com/TIBCOSoftware/GraphBuilder/activity/graphtofile",
+    "ref": "github.com/P-f1/LC/GraphBuilder/activity/graphtofile",
     "settings": [
 		{
             "name": "outputFile",

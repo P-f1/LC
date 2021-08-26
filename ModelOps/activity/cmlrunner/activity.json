@@ -10,7 +10,7 @@
        "smallIcon": "cmlrunner.png",
        "description": "This activity build and execuate CML model"
     },
-    "ref": "github.com/TIBCOSoftware/ModelOps/activity/cmlrunner",
+    "ref": "github.com/P-f1/LC/ModelOps/activity/cmlrunner",
 	"settings": [
 		{
 			"name": "CML",

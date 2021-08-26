@@ -1,7 +1,7 @@
 {
     "name": "flogo-clock",
     "type": "flogo:activity",
-    "ref": "github.com/TIBCOSoftware/GraphBuilder_Tools/activity/clock",
+    "ref": "github.com/P-f1/LC/GraphBuilder_Tools/activity/clock",
     "version": "0.0.1",
     "title": "Clock",
     "display": {

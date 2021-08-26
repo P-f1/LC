@@ -10,7 +10,7 @@
        "smallIcon": "rules.png",
        "description": "This activity impplements Rule Engine"
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/rules",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/rules",
 	"settings": [
 		{
 			"name": "id",

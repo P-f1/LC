@@ -9,10 +9,10 @@ import (
 	"errors"
 	"sync"
 
-	log "github.com/TIBCOSoftware/flogo-lib/logger"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice"
-	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/logging"
-	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/types"
+	log "github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice"
+	"github.com/P-f1/LC/tgdb-client/client/goAPI/logging"
+	"github.com/P-f1/LC/tgdb-client/client/goAPI/types"
 )
 
 const (

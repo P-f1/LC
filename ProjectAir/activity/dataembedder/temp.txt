@@ -3,8 +3,8 @@
 	/*
 		[
 			{"ref":"git.tibco.com/git/product/ipaas/wi-mqtt.git/Mqtt","s3location":"Tibco/Mqtt"},
-			{"ref":"github.com/TIBCOSoftware/ModelOps","s3location":"{USERID}/ModelOps"},
-			{"ref":"github.com/TIBCOSoftware/GraphBuilder_Tools","s3location":"{USERID}/GraphBuilder_Tools"}
+			{"ref":"github.com/P-f1/LC/ModelOps","s3location":"{USERID}/ModelOps"},
+			{"ref":"github.com/P-f1/LC/GraphBuilder_Tools","s3location":"{USERID}/GraphBuilder_Tools"}
 		]
 	*/
 

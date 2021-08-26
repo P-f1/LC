@@ -1,4 +1,4 @@
-module github.com/TIBCOSoftware/GraphBuilder_Tools/trigger/httpfilehandler
+module github.com/P-f1/LC/GraphBuilder_Tools/trigger/httpfilehandler
 
 require (
 	github.com/project-flogo/core v0.9.0

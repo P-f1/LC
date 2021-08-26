@@ -1,11 +1,11 @@
 {
 	"name": "notificationlistener",
 	"type": "flogo:trigger",
-	"ref": "github.com/TIBCOSoftware/ModelOps/trigger/notificationlistener",
+	"ref": "github.com/P-f1/LC/ModelOps/trigger/notificationlistener",
 	"version": "0.0.1",
 	"title": "Notification Listener",
 	"description": "Listen to and deliver notification",
-	"homepage": "github.com/TIBCOSoftware/ModelOps/trigger/notificationlistener",
+	"homepage": "github.com/P-f1/LC/ModelOps/trigger/notificationlistener",
 	"display": {
 		"category": "ModelOps",
 		"visible": true,

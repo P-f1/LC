@@ -6,7 +6,7 @@
 package dbservice
 
 import (
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/model"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/model"
 )
 
 type DBType int

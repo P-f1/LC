@@ -1,7 +1,7 @@
 {
 	"name": "flogo-modelrunner",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/modelrunner",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/modelrunner",
 	"version": "0.0.1",
 	"title": "modelrunner",
 	"display": {

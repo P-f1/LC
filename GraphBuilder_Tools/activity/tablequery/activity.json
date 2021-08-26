@@ -1,7 +1,7 @@
 {
 	"name": "flogo-tablequery",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/GraphBuilder_Tools/activity/tablequery",
+	"ref": "github.com/P-f1/LC/GraphBuilder_Tools/activity/tablequery",
 	"version": "0.0.1",
 	"title": "Table Query",
 	"display": {

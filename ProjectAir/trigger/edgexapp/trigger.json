@@ -1,11 +1,11 @@
 {
 	"name": "edgexapp",
 	"type": "flogo:trigger",
-	"ref": "github.com/TIBCOSoftware/ProjectAir/trigger/edgexapp",
+	"ref": "github.com/P-f1/LC/ProjectAir/trigger/edgexapp",
 	"version": "0.0.1",
 	"title": "EdgeX App Event",
 	"description": "This trigger listens to EdgeX Event for app",
-	"homepage": "https://github.com/TIBCOSoftware/ProjectAir/trigger/edgexapp",
+	"homepage": "https://github.com/P-f1/LC/ProjectAir/trigger/edgexapp",
 	"display": {
 		"category": "ProjectAir",
 		"visible": true,

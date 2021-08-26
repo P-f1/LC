@@ -15,11 +15,11 @@ import (
 
 	"git.tibco.com/git/product/ipaas/wi-contrib.git/connection/generic"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/core/data"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
-	"github.com/TIBCOSoftware/labs-devops/lib/k8s"
-	"github.com/TIBCOSoftware/labs-devops/lib/util"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/core/data"
+	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/P-f1/LC/labs-devops/lib/k8s"
+	"github.com/P-f1/LC/labs-devops/lib/util"
 )
 
 var log = logger.GetLogger("tibco-k8s-yaml-deployer")

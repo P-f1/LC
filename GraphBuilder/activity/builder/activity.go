@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/core/data"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/model"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/util"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/core/data"
+	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/model"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/util"
 )
 
 var log = logger.GetLogger("tibco-activity-graphbuilder")

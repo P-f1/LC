@@ -8,9 +8,9 @@ package jsonserializer
 import (
 	"encoding/json"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/core/data"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/core/data"
+	"github.com/P-f1/LC/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("activity-jsondeserializer")

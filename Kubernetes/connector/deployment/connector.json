@@ -10,7 +10,7 @@
     "visible": true,
     "smallIcon": "deployment.png"
   },
-  "ref": "github.com/TIBCOSoftware/Kubernetes/connector/deployment",
+  "ref": "github.com/P-f1/LC/Kubernetes/connector/deployment",
   "keyfield": "name",
   "settings": [
     {

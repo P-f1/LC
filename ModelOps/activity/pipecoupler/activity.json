@@ -10,7 +10,7 @@
        "smallIcon": "pipecoupler.png",
        "description": "This activity couple ML pipelines"
     },
-    "ref": "github.com/TIBCOSoftware/ModelOps/activity/pipecoupler",
+    "ref": "github.com/P-f1/LC/ModelOps/activity/pipecoupler",
 	"settings": [
 		{
 			"name": "DownstreamHost",

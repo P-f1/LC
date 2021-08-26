@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/TIBCOSoftware/ModelOps/activity/aggregate/window"
-	"github.com/TIBCOSoftware/ModelOps/pipeline/support"
+	"github.com/P-f1/LC/ModelOps/activity/aggregate/window"
+	"github.com/P-f1/LC/ModelOps/pipeline/support"
 	"github.com/project-flogo/core/activity"
 	"github.com/project-flogo/core/data/metadata"
 )

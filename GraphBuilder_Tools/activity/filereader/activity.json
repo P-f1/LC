@@ -12,7 +12,7 @@
        "description": "This activity write incoming object to file system"
     },
  
-    "ref": "github.com/TIBCOSoftware/GraphBuilder_Tools/activity/filereader",
+    "ref": "github.com/P-f1/LC/GraphBuilder_Tools/activity/filereader",
     "settings": [
 		{
             "name": "BaseFolder",

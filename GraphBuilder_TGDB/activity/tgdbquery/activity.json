@@ -12,7 +12,7 @@
        "description": "This activity query data from tgdb"
     },
 
-    "ref": "github.com/TIBCOSoftware/GraphBuilder_TGDB/activity/tgdbquery",
+    "ref": "github.com/P-f1/LC/GraphBuilder_TGDB/activity/tgdbquery",
     "settings": [
 		{
             "name": "tgdbConnection",

@@ -8,8 +8,8 @@ package query
 import (
 	"reflect"
 
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/model"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/util"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/model"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/util"
 )
 
 func printTraversal(tNode *model.TraversalNode) {

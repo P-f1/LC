@@ -3,7 +3,7 @@ package k8s
 import (
 	"encoding/json"
 
-	"github.com/TIBCOSoftware/labs-devops/lib/util"
+	"github.com/P-f1/LC/labs-devops/lib/util"
 	
 	yaml "gopkg.in/yaml.v2"
 	corev1 "k8s.io/api/core/v1"

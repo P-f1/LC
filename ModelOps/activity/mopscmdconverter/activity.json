@@ -10,7 +10,7 @@
        "smallIcon": "mopscmdconverter.png",
        "description": "This activity convert model ops UI command to kubernetes deploy descriptor"
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/mopscmdconverter",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/mopscmdconverter",
 	"settings": [
 	],
     "inputs": [

@@ -3,8 +3,8 @@ package aggregate
 import (
 	"fmt"
 
-	"github.com/TIBCOSoftware/ModelOps/activity/aggregate/window"
-	"github.com/TIBCOSoftware/ModelOps/activity/aggregate/window/functions"
+	"github.com/P-f1/LC/ModelOps/activity/aggregate/window"
+	"github.com/P-f1/LC/ModelOps/activity/aggregate/window/functions"
 )
 
 func NewTumblingWindow(function string, settings *window.Settings) (window.Window, error) {

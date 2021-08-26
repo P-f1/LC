@@ -5,7 +5,7 @@ import (
 	"f1/air/notify"
 	"time"
 
-	"github.com/TIBCOSoftware/labs-flogo-lib/notification/notificationbroker"
+	"github.com/P-f1/LC/labs-flogo-lib/notification/notificationbroker"
 	"github.com/project-flogo/core/data"
 	"github.com/project-flogo/core/data/expression/function"
 )

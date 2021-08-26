@@ -1,11 +1,11 @@
 {
 	"name": "flogo-mr4r-webcam",
 	"type": "flogo:trigger",
-	"ref": "github.com/TIBCOSoftware/MR4R_CV/trigger/webcam",
+	"ref": "github.com/P-f1/LC/MR4R_CV/trigger/webcam",
 	"version": "0.0.1",
 	"title": "Webcam Video Receiver",
 	"description": "Video receiver for webcam",
-	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/trigger/webcam",
+	"homepage": "https://github.com/P-f1/LC/MR4R_CV/trigger/webcam",
 	"display": {
 		"category": "MR4R_CV",
 		"visible": true,

@@ -1,11 +1,11 @@
 {
 	"name": "httpredirect",
 	"type": "flogo:trigger",
-	"ref": "github.com/TIBCOSoftware/ModelOps/trigger/httpredirect",
+	"ref": "github.com/P-f1/LC/ModelOps/trigger/httpredirect",
 	"version": "0.0.1",
 	"title": "HTTP Redirect",
 	"description": "This trigger redirects HTTP request",
-	"homepage": "https://github.com/TIBCOSoftware/ModelOps/trigger/httpredirect",
+	"homepage": "https://github.com/P-f1/LC/ModelOps/trigger/httpredirect",
 	"display": {
 		"category": "ModelOps",
 		"visible": true,

@@ -11,18 +11,18 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/dgraph"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/dgraph/api"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/dgraph"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/dgraph/api"
 
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/dgraph/api/v2"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/dgraph/cache"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/dgraph/rdf"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/dgraph/api/v2"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/dgraph/cache"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/dgraph/rdf"
 
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/model"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/util"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/model"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/util"
 
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/P-f1/LC/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("dgraph-service")

@@ -10,7 +10,7 @@
        "smallIcon": "properties2object.png",
        "description": "This activity convert f1 key/value to golang object format"
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/properties2object",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/properties2object",
 	"settings": [
 		{
 			"name": "defOverrideProperties",

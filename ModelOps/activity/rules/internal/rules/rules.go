@@ -10,8 +10,8 @@ import (
 
 	"f1/air/rules"
 
-	"github.com/TIBCOSoftware/ModelOps/activity/rules/internal/sender"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/P-f1/LC/ModelOps/activity/rules/internal/sender"
+	"github.com/P-f1/LC/flogo-lib/logger"
 	"github.com/project-flogo/rules/common/model"
 	"github.com/project-flogo/rules/config"
 	"github.com/project-flogo/rules/ruleapi"

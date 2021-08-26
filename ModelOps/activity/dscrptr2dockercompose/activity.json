@@ -10,7 +10,7 @@
        "smallIcon": "dscrptr2dockercompose.png",
        "description": "This activity convert f1 descriptor to docker compose format"
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/dscrptr2dockercompose",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/dscrptr2dockercompose",
 	"settings": [
 	],
     "inputs": [

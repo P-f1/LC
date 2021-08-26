@@ -10,7 +10,7 @@
        "smallIcon": "yamldeployer.png",
        "description": "This activity deploy application to kubernetes"
     },
-	"ref": "github.com/TIBCOSoftware/Kubernetes/activity/yamldeployer",
+	"ref": "github.com/P-f1/LC/Kubernetes/activity/yamldeployer",
 	"settings": [
 		{
 			"name": "Cluster",

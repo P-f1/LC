@@ -10,7 +10,7 @@
        "smallIcon": "pipelinebuilder.png",
        "description": "This activity build model inference pipeline"
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/pipelinebuilder",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/pipelinebuilder",
 	"settings": 	[{ 
 		"name": "TemplateFolder",
 		"type": "string", 

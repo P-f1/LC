@@ -16,8 +16,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("tibco-model-ops-pipelinebuilder")
@@ -136,8 +136,8 @@ func (a *PipelineBuilderActivity) Eval(context activity.Context) (done bool, err
 	/*
 		[
 			{"ref":"git.tibco.com/git/product/ipaas/wi-mqtt.git/Mqtt","s3location":"Tibco/Mqtt"},
-			{"ref":"github.com/TIBCOSoftware/ModelOps","s3location":"{USERID}/ModelOps"},
-			{"ref":"github.com/TIBCOSoftware/GraphBuilder_Tools","s3location":"{USERID}/GraphBuilder_Tools"}
+			{"ref":"github.com/P-f1/LC/ModelOps","s3location":"{USERID}/ModelOps"},
+			{"ref":"github.com/P-f1/LC/GraphBuilder_Tools","s3location":"{USERID}/GraphBuilder_Tools"}
 		]
 	*/
 	elementMap["root.contrib"] = &Element{
@@ -238,8 +238,8 @@ func (a *PipelineBuilderActivity) BuildFlogoApp(
 	/*
 		[
 			{"ref":"git.tibco.com/git/product/ipaas/wi-mqtt.git/Mqtt","s3location":"Tibco/Mqtt"},
-			{"ref":"github.com/TIBCOSoftware/ModelOps","s3location":"{USERID}/ModelOps"},
-			{"ref":"github.com/TIBCOSoftware/GraphBuilder_Tools","s3location":"{USERID}/GraphBuilder_Tools"}
+			{"ref":"github.com/P-f1/LC/ModelOps","s3location":"{USERID}/ModelOps"},
+			{"ref":"github.com/P-f1/LC/GraphBuilder_Tools","s3location":"{USERID}/GraphBuilder_Tools"}
 		]
 	*/
 	elementMap["root.contrib"] = &Element{

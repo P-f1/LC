@@ -14,10 +14,10 @@ import (
 
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/core/data"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
-	"github.com/TIBCOSoftware/labs-flogo-lib/util"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/core/data"
+	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/P-f1/LC/labs-flogo-lib/util"
 )
 
 var log = logger.GetLogger("tibco-model-ops-cmdconverter")

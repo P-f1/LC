@@ -1,7 +1,7 @@
 {
 	"name": "flogo-keyword-mapping",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/Kubernetes/activity/keywordreplacement",
+	"ref": "github.com/P-f1/LC/Kubernetes/activity/keywordreplacement",
 	"version": "0.0.1",
 	"title": "Keyword Replacement",
 	"display": {

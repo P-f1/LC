@@ -10,7 +10,7 @@
        "smallIcon": "githubaccessor.png",
        "description": "This activity access to Git Hub repository"
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/githubaccessor",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/githubaccessor",
 	"settings": [{
 		"name": "Folder",
 		"type": "string",

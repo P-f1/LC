@@ -1,7 +1,7 @@
 package f1
 
 import (
-	"github.com/TIBCOSoftware/labs-flogo-lib/util"
+	"github.com/P-f1/LC/labs-flogo-lib/util"
 	"github.com/project-flogo/core/data"
 	"github.com/project-flogo/core/data/expression/function"
 )

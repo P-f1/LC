@@ -10,7 +10,7 @@
 		"visible": true,
 		"smallIcon": "videoservice.png"
 	},
-	"ref": "github.com/TIBCOSoftware/MR4R_CV/connector/sse",
+	"ref": "github.com/P-f1/LC/MR4R_CV/connector/sse",
 	"keyfield": "name",
 	"settings": [
 		{

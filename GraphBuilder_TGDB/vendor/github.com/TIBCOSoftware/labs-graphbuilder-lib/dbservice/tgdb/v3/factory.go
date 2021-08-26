@@ -12,8 +12,8 @@ import (
 	"tgdb"
 	"tgdb/impl"
 
-	log "github.com/TIBCOSoftware/flogo-lib/logger"
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice"
+	log "github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice"
 )
 
 const (

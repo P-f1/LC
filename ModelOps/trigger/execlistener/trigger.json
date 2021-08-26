@@ -1,11 +1,11 @@
 {
 	"name": "execlistener",
 	"type": "flogo:trigger",
-	"ref": "github.com/TIBCOSoftware/ModelOps/trigger/execlistener",
+	"ref": "github.com/P-f1/LC/ModelOps/trigger/execlistener",
 	"version": "0.0.1",
 	"title": "ExecEventListener",
 	"description": "Exec event listener",
-	"homepage": "github.com/TIBCOSoftware/ModelOps/trigger/execlistener",
+	"homepage": "github.com/P-f1/LC/ModelOps/trigger/execlistener",
 	"display": {
 		"category": "ModelOps",
 		"visible": true,

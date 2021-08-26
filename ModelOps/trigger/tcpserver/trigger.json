@@ -1,11 +1,11 @@
 {
 	"name": "tcpserver",
 	"type": "flogo:trigger",
-	"ref": "github.com/TIBCOSoftware/ModelOps/trigger/tcpserver",
+	"ref": "github.com/P-f1/LC/ModelOps/trigger/tcpserver",
 	"version": "0.0.1",
 	"title": "HTTP Redirect",
 	"description": "This trigger redirects HTTP request",
-	"homepage": "https://github.com/TIBCOSoftware/ModelOps/trigger/tcpserver",
+	"homepage": "https://github.com/P-f1/LC/ModelOps/trigger/tcpserver",
 	"display": {
 		"category": "ModelOps",
 		"visible": true,

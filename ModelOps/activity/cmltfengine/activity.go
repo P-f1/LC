@@ -5,9 +5,9 @@ import (
 	"plugin"
 	"sync"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/core/data"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/core/data"
+	"github.com/P-f1/LC/flogo-lib/logger"
 )
 
 // activityLog is the default logger for the Log Activity

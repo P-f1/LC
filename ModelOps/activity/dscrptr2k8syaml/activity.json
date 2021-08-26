@@ -10,7 +10,7 @@
        "smallIcon": "dscrptr2k8syaml.png",
        "description": "This activity convert f1 descriptor to k8s deployment format"
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/dscrptr2k8syaml",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/dscrptr2k8syaml",
 	"settings": [
 	],
     "inputs": [

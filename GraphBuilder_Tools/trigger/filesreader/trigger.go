@@ -10,7 +10,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/file"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/file"
 	"github.com/project-flogo/core/data/metadata"
 	"github.com/project-flogo/core/support/log"
 	"github.com/project-flogo/core/trigger"

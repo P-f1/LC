@@ -10,7 +10,7 @@
 		"visible": true,
 		"smallIcon": "simpletable.png"
 	},
-	"ref": "github.com/TIBCOSoftware/GraphBuilder_Tools/connector/simpletable",
+	"ref": "github.com/P-f1/LC/GraphBuilder_Tools/connector/simpletable",
 	"keyfield": "name",
 	"settings": [
 		{

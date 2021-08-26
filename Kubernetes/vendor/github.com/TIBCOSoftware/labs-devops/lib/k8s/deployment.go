@@ -3,7 +3,7 @@ package k8s
 import (
 	"fmt"
 
-	"github.com/TIBCOSoftware/labs-devops/lib/util"
+	"github.com/P-f1/LC/labs-devops/lib/util"
 
 	yaml "gopkg.in/yaml.v2"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

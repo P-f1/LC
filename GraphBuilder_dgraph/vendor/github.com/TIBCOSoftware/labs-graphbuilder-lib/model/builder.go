@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/util"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/util"
 )
 
 //-============================-//

@@ -8,9 +8,9 @@ package factory
 import (
 	"sync"
 
-	"github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice"
-	tgdb2 "github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/tgdb/v2"
-	tgdb3 "github.com/TIBCOSoftware/labs-graphbuilder-lib/dbservice/tgdb/v3"
+	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice"
+	tgdb2 "github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/tgdb/v2"
+	tgdb3 "github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/tgdb/v3"
 )
 
 var (

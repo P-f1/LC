@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/connection"
-	//"github.com/TIBCOSoftware/tgdb-client/client/goAPI/model"
-	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/query"
-	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/types"
-	//"github.com/TIBCOSoftware/tgdb-client/client/goAPI/utils"
+	"github.com/P-f1/LC/tgdb-client/client/goAPI/connection"
+	//"github.com/P-f1/LC/tgdb-client/client/goAPI/model"
+	"github.com/P-f1/LC/tgdb-client/client/goAPI/query"
+	"github.com/P-f1/LC/tgdb-client/client/goAPI/types"
+	//"github.com/P-f1/LC/tgdb-client/client/goAPI/utils"
 )
 
 const (

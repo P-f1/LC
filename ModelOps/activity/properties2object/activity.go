@@ -11,10 +11,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
-	kwr "github.com/TIBCOSoftware/labs-flogo-lib/keywordreplace"
-	"github.com/TIBCOSoftware/labs-flogo-lib/util"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/logger"
+	kwr "github.com/P-f1/LC/labs-flogo-lib/keywordreplace"
+	"github.com/P-f1/LC/labs-flogo-lib/util"
 )
 
 var log = logger.GetLogger("tibco-model-ops-cmdconverter")

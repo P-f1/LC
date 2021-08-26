@@ -1,7 +1,7 @@
 {
 	"name": "flogo-xmlparser",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/GraphBuilder_Tools/activity/xmlparser",
+	"ref": "github.com/P-f1/LC/GraphBuilder_Tools/activity/xmlparser",
 	"version": "0.0.1",
 	"title": "XML Parser",
 	"display": {

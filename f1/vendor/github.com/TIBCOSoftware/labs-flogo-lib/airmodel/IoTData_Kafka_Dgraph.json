@@ -3,9 +3,9 @@
         "github.com/project-flogo/flow",
         "git.tibco.com/git/product/ipaas/wi-contrib.git/contributions/General/activity/log",
         "github.com/project-flogo/contrib/activity/actreturn",
-        "github.com/TIBCOSoftware/GraphBuilder_Tools/activity/accumulator",
-        "github.com/TIBCOSoftware/GraphBuilder/activity/builder",
-        "github.com/TIBCOSoftware/GraphBuilder_dgraph/activity/dgraphupsert",
+        "github.com/P-f1/LC/GraphBuilder_Tools/activity/accumulator",
+        "github.com/P-f1/LC/GraphBuilder/activity/builder",
+        "github.com/P-f1/LC/GraphBuilder_dgraph/activity/dgraphupsert",
         "git.tibco.com/git/product/ipaas/wi-plugins.git/contributions/kafka/src/app/Kafka/trigger/consumer",
         "github.com/project-flogo/contrib/function/string",
         "github.com/project-flogo/contrib/function/array"
@@ -483,7 +483,7 @@
                                     "iteratorMappings": {},
                                     "title": "Graph",
                                     "description": "This is URL file reader",
-                                    "ref": "github.com/TIBCOSoftware/GraphBuilder/connector/graph",
+                                    "ref": "github.com/P-f1/LC/GraphBuilder/connector/graph",
                                     "settings": [
                                         {
                                             "name": "name",
@@ -680,7 +680,7 @@
                                     "iteratorMappings": {},
                                     "title": "Dgraph Connector",
                                     "description": "This is Dgraph connector",
-                                    "ref": "github.com/TIBCOSoftware/GraphBuilder_dgraph/connector/dgraph",
+                                    "ref": "github.com/P-f1/LC/GraphBuilder_dgraph/connector/dgraph",
                                     "settings": [
                                         {
                                             "name": "name",
@@ -951,7 +951,7 @@
                                     "iteratorMappings": {},
                                     "title": "Graph",
                                     "description": "This is URL file reader",
-                                    "ref": "github.com/TIBCOSoftware/GraphBuilder/connector/graph",
+                                    "ref": "github.com/P-f1/LC/GraphBuilder/connector/graph",
                                     "settings": [
                                         {
                                             "name": "name",
@@ -1148,7 +1148,7 @@
                                     "iteratorMappings": {},
                                     "title": "Dgraph Connector",
                                     "description": "This is Dgraph connector",
-                                    "ref": "github.com/TIBCOSoftware/GraphBuilder_dgraph/connector/dgraph",
+                                    "ref": "github.com/P-f1/LC/GraphBuilder_dgraph/connector/dgraph",
                                     "settings": [
                                         {
                                             "name": "name",

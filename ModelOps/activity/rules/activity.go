@@ -15,12 +15,12 @@ import (
 	"sync"
 	//	"time"
 
-	"github.com/TIBCOSoftware/ModelOps/activity/rules/internal/rules"
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
-	kwr "github.com/TIBCOSoftware/labs-flogo-lib/keywordreplace"
-	"github.com/TIBCOSoftware/labs-flogo-lib/notification/notificationbroker"
-	"github.com/TIBCOSoftware/labs-flogo-lib/util"
+	"github.com/P-f1/LC/ModelOps/activity/rules/internal/rules"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/logger"
+	kwr "github.com/P-f1/LC/labs-flogo-lib/keywordreplace"
+	"github.com/P-f1/LC/labs-flogo-lib/notification/notificationbroker"
+	"github.com/P-f1/LC/labs-flogo-lib/util"
 )
 
 var log = logger.GetLogger("tibco-f1-Rules")

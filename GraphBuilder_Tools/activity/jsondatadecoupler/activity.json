@@ -1,7 +1,7 @@
 {
 	"name": "flogo-jsondatadecoupler",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/GraphBuilder_Tools/activity/jsondatadecoupler",
+	"ref": "github.com/P-f1/LC/GraphBuilder_Tools/activity/jsondatadecoupler",
 	"version": "0.0.1",
 	"title": "JSON Data Decoupler",
 	"display": {

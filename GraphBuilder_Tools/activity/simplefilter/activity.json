@@ -1,11 +1,11 @@
 {
 	"name": "flogo-simple-filter",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/GraphBuilder_Tools/activity/simplefilter",
+	"ref": "github.com/P-f1/LC/GraphBuilder_Tools/activity/simplefilter",
 	"version": "0.0.1",
 	"title": "Simple Filter",
 	"description": "Simple Filter Activity",
-	"homepage": "https://github.com/TIBCOSoftware/GraphBuilder_Tools/activity/simplefilter",
+	"homepage": "https://github.com/P-f1/LC/GraphBuilder_Tools/activity/simplefilter",
     "display": {
        "category": "GraphBuilder_Tools",
        "visible": true,

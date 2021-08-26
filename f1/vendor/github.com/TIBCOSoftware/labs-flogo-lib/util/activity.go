@@ -11,7 +11,7 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
 	"github.com/project-flogo/core/data/property"
 )
 

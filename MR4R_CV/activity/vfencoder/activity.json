@@ -1,11 +1,11 @@
 {
 	"name": "flogo-vf-encoder",
 	"type": "flogo:activity",
-	"ref": "github.com/TIBCOSoftware/MR4R_CV/activity/vfencoder",
+	"ref": "github.com/P-f1/LC/MR4R_CV/activity/vfencoder",
 	"version": "0.0.1",
 	"title": "Video Frame Encoder",
 	"return": true,
-	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/activity/vfencoder",
+	"homepage": "https://github.com/P-f1/LC/MR4R_CV/activity/vfencoder",
 	"display": {
 		"category": "MR4R_CV",
 		"visible": true,

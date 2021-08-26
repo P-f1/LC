@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/types"
+	"github.com/P-f1/LC/tgdb-client/client/goAPI/types"
 )
 
 type TGEntityWrapper struct {

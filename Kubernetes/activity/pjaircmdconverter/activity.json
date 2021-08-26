@@ -10,7 +10,7 @@
        "smallIcon": "pjaircmdconverter.png",
        "description": "This activity conver air UI command to kubernetes deploy descriptor"
     },
-	"ref": "github.com/TIBCOSoftware/Kubernetes/activity/pjaircmdconverter",
+	"ref": "github.com/P-f1/LC/Kubernetes/activity/pjaircmdconverter",
 	"settings": [
 	],
     "inputs": [

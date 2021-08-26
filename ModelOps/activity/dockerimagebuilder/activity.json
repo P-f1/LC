@@ -10,7 +10,7 @@
        "smallIcon": "dockerimagebuilder.png",
        "description": "This activity build docker image from Dockerfile"
     },
-	"ref": "github.com/TIBCOSoftware/ModelOps/activity/dockerimagebuilder",
+	"ref": "github.com/P-f1/LC/ModelOps/activity/dockerimagebuilder",
 	"settings": [{
 		"name": "APIVersion",
 		"type": "string",

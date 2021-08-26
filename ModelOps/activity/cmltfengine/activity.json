@@ -10,7 +10,7 @@
        "smallIcon": "cmltfengine.png",
        "description": "This activity build and execuate CML cmltfengine"
     },
-    "ref": "github.com/TIBCOSoftware/ModelOps/activity/cmltfengine",
+    "ref": "github.com/P-f1/LC/ModelOps/activity/cmltfengine",
 	"settings": [
 		{ 
         "name": "plugin",

@@ -1,11 +1,11 @@
 {
 	"name": "videoserver",
 	"type": "flogo:trigger",
-	"ref": "github.com/TIBCOSoftware/MR4R_CV/trigger/videoserver",
+	"ref": "github.com/P-f1/LC/MR4R_CV/trigger/videoserver",
 	"version": "0.0.1",
 	"title": "VideoServer",
 	"description": "Video Stream Server",
-	"homepage": "https://github.com/TIBCOSoftware/MR4R_CV/trigger/videoserver",
+	"homepage": "https://github.com/P-f1/LC/MR4R_CV/trigger/videoserver",
 	"display": {
 		"category": "MR4R_CV",
 		"visible": true,

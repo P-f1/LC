@@ -3,8 +3,8 @@ package amqppublish
 import (
 	"fmt"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/logger"
 	"github.com/streadway/amqp"
 )
 

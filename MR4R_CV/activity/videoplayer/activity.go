@@ -11,8 +11,8 @@ import (
 	"io"
 	"os/exec"
 
-	"github.com/TIBCOSoftware/flogo-lib/core/activity"
-	"github.com/TIBCOSoftware/flogo-lib/logger"
+	"github.com/P-f1/LC/flogo-lib/core/activity"
+	"github.com/P-f1/LC/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("activity-mr4r-videoplayer")
@@ -30,7 +30,7 @@ type VideoPlayer struct {
 
 func NewActivity(metadata *activity.Metadata) activity.Activity {
 	//imgplayer := exec.Command(
-	//	"/Users/steven/Applications/MR4R/TelloFlogo/src/github.com/TIBCOSoftware/labs-mr4r/lib/imgplayer/imgplayer",
+	//	"/Users/steven/Applications/MR4R/TelloFlogo/src/github.com/P-f1/LC/labs-mr4r/lib/imgplayer/imgplayer",
 	//	strconv.Itoa(frameX), strconv.Itoa(frameY),
 	//)
 	imgplayer := exec.Command("/Applications/MPlayer OSX Extended.app/Contents/Resources/Binaries/mpextended.mpBinaries/Contents/MacOS/mplayer", "-fps", "60", "-")

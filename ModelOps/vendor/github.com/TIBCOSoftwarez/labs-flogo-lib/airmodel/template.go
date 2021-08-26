@@ -11,7 +11,7 @@ import (
 
 	"fmt"
 
-	"github.com/TIBCOSoftware/labs-flogo-lib/objectbuilder"
+	"github.com/P-f1/LC/labs-flogo-lib/objectbuilder"
 )
 
 /* FlogoTemplateLibrary */

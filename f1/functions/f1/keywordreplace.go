@@ -1,7 +1,7 @@
 package f1
 
 import (
-	kwr "github.com/TIBCOSoftware/labs-flogo-lib/keywordreplace"
+	kwr "github.com/P-f1/LC/labs-flogo-lib/keywordreplace"
 	"github.com/project-flogo/core/data"
 	"github.com/project-flogo/core/data/expression/function"
 )
