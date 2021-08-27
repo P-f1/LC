@@ -1,2 +1,0 @@
-curl --header "Content-Type:application/octet-stream" --trace-ascii debugdump.txt --data-binary @./SteveNY-Tibco_iris-classifier-pickle.tar.gz http://127.0.0.1:10091/mops/projectmgr/pushProject/SteveNY-Tibco_iris-classifier-pickle.tar.gz
-#curl -X POST -H "Content-Type: binary/octet-stream" -d @./SteveNY-Tibco_iris-classifier-pickle.tar.gz http://127.0.0.1:10091/mops/projectmgr/pushProject/SteveNY-Tibco_iris-classifier-pickle.tar.gz

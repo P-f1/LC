@@ -1,3 +1,0 @@
-# labs-graphbuilder-lib
-
-Test
