@@ -80,7 +80,7 @@ func (t *Trigger) Initialize(ctx trigger.InitContext) error {
 		method := s.Method
 		path := s.Path
 
-		t.logger.Debugf("Registering handler [%s: %s]", method, path)
+		t.logger.Infof("Registering handler [%s: %s]", method, path)
 
 		if _, ok := pathMap[path]; !ok {
 			pathMap[path] = path
@@ -144,7 +144,7 @@ func newActionHandler(rt *Trigger, method string, handler trigger.Handler) httpr
 
 		logger := rt.logger
 
-		logger.Debugf("Received request for id '%s'", rt.id)
+		logger.Info("Received request for id '%s'", rt.id)
 
 		c := cors.New(CorsPrefix, logger)
 		c.WriteCorsActualRequestHeaders(w)
