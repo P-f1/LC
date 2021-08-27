@@ -3,7 +3,7 @@ module main
 go 1.12
 
 require (
-	github.com/P-f1/LC/flogo-lib v0.5.8
+	github.com/TIBCOSoftware/flogo-lib v0.5.8
 	github.com/docker/distribution v2.7.1+incompatible // indirect
 	github.com/docker/docker v1.13.1
 	github.com/docker/engine-api v0.4.0

@@ -4,7 +4,7 @@ go 1.12
 
 require (
 	github.com/Shopify/sarama v1.28.0
-	github.com/P-f1/LC/flogo-lib v0.5.8
+	github.com/TIBCOSoftware/flogo-lib v0.5.8
 	github.com/P-f1/LC/labs-flogo-lib v0.0.0-00010101000000-000000000000
 	github.com/eclipse/paho.mqtt.golang v1.3.2
 	github.com/edgexfoundry/app-functions-sdk-go v1.3.1
