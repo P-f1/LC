@@ -12,7 +12,7 @@ import (
 	//	"strconv"
 	//	"strings"
 	//	"sync"
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("labs-flogo-lib.keywordreplace")

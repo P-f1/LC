@@ -8,7 +8,7 @@ package notificationbroker
 import (
 	"sync"
 
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("tibco-f1_notification_broker")

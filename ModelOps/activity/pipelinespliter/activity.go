@@ -15,9 +15,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/P-f1/LC/flogo-lib/core/activity"
-	"github.com/P-f1/LC/flogo-lib/core/data"
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+	"github.com/TIBCOSoftware/flogo-lib/core/data"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 	"github.com/project-flogo/core/app"
 	"github.com/project-flogo/core/app/resource"
 	"github.com/project-flogo/core/data/metadata"
@@ -172,7 +172,7 @@ type Contribute struct {
 // Def is the configuration for the App
 type PipelineConfig struct {
 	app.Config
-	//[{"ref":"git.tibco.com/git/product/ipaas/wi-contrib.git/contributions/General","s3location":"Tibco/General"},{"ref":"github.com/project-flogo/contrib/activity/log","s3location":"{USERID}/Default/activity/log"},{"ref":"github.com/P-f1/LC/GraphBuilder_Tools","s3location":"{USERID}/GraphBuilder_Tools"},{"ref":"github.com/P-f1/LC/ModelOps","s3location":"{USERID}/ModelOps"}]
+	//[{"ref":"git.tibco.com/git/product/ipaas/wi-contrib.git/contributions/General","s3location":"Tibco/General"},{"ref":"github.com/project-flogo/contrib/activity/log","s3location":"{USERID}/Default/activity/log"},{"ref":"github.com/TIBCOSoftware/GraphBuilder_Tools","s3location":"{USERID}/GraphBuilder_Tools"},{"ref":"github.com/TIBCOSoftware/ModelOps","s3location":"{USERID}/ModelOps"}]
 	Contrib          map[string]Contribute
 	Flows            map[string]*definition.DefinitionRep
 	RunnerProperties map[string]interface{}

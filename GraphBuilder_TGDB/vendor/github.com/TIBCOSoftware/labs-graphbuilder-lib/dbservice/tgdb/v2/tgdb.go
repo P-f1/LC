@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/P-f1/LC/labs-graphbuilder-lib/model"
-	"github.com/P-f1/LC/tgdb-client/client/goAPI/connection"
-	"github.com/P-f1/LC/tgdb-client/client/goAPI/query"
-	"github.com/P-f1/LC/tgdb-client/client/goAPI/types"
+	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/connection"
+	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/query"
+	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/types"
 )
 
 type TGDBService struct {

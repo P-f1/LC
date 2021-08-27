@@ -10,7 +10,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 	"github.com/P-f1/LC/labs-flogo-lib/objectbuilder"
 	"github.com/P-f1/LC/labs-flogo-lib/util"
 )

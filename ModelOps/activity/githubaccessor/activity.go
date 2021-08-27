@@ -22,8 +22,8 @@ import (
 	"github.com/go-git/go-git/plumbing/transport/http"
 	"github.com/go-git/go-git/storage/memory"
 
-	"github.com/P-f1/LC/flogo-lib/core/activity"
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("tibco-modelops-githubaccessor")

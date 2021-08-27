@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/P-f1/LC/flogo-lib/core/activity"
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 	kwr "github.com/P-f1/LC/labs-flogo-lib/keywordreplace"
 	"github.com/P-f1/LC/labs-flogo-lib/util"
 )

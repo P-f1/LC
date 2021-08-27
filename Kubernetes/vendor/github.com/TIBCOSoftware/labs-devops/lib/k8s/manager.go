@@ -47,7 +47,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

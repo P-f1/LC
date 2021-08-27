@@ -10,7 +10,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/P-f1/LC/tgdb-client/client/goAPI/types"
+	"github.com/TIBCOSoftware/tgdb-client/client/goAPI/types"
 )
 
 func BuildMetadata(metadata types.TGGraphMetadata) map[string]interface{} {

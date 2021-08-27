@@ -11,8 +11,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/P-f1/LC/flogo-lib/core/activity"
-	"github.com/P-f1/LC/flogo-lib/core/data"
+	"github.com/TIBCOSoftware/flogo-lib/core/activity"
+	"github.com/TIBCOSoftware/flogo-lib/core/data"
 	"github.com/P-f1/LC/labs-mr4r/lib/internet/streamserver"
 	"github.com/project-flogo/core/data/metadata"
 	"github.com/project-flogo/core/support/log"

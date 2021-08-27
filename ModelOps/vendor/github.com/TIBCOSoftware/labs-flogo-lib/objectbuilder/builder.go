@@ -12,7 +12,7 @@ import (
 	"strconv"
 
 	//"strings"
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
 /* GOLangObjectHandler : for build app */

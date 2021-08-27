@@ -6,7 +6,7 @@
 package api
 
 import (
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("dgraph-service")

@@ -22,7 +22,7 @@ import (
 	"github.com/P-f1/LC/labs-graphbuilder-lib/model"
 	"github.com/P-f1/LC/labs-graphbuilder-lib/util"
 
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 )
 
 var log = logger.GetLogger("dgraph-service")

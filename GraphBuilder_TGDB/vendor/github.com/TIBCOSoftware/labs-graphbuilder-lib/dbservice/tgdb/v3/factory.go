@@ -12,7 +12,7 @@ import (
 	"tgdb"
 	"tgdb/impl"
 
-	log "github.com/P-f1/LC/flogo-lib/logger"
+	log "github.com/TIBCOSoftware/flogo-lib/logger"
 	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice"
 )
 

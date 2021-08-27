@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/P-f1/LC/flogo-lib/logger"
+	"github.com/TIBCOSoftware/flogo-lib/logger"
 	"github.com/P-f1/LC/labs-graphbuilder-lib/dbservice/dgraph"
 	"github.com/P-f1/LC/labs-graphbuilder-lib/model"
 	"github.com/P-f1/LC/labs-graphbuilder-lib/util"
