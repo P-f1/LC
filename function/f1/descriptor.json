@@ -479,6 +479,20 @@
             }
         },
         {
+            "name": "object2json",
+            "description": "Returns input object to JSON object",
+            "example": "f1.object2json(['key1' 'value1']) => {'key1' : 'value1'}",
+            "args": [
+                {
+                    "name": "obj",
+                    "type": "object"
+                }
+            ],
+            "return": {
+                "type": "string"
+            }
+        },
+        {
             "name": "deployeddockercmp",
             "description": "convert docker container to deployed components",
             "example": "f1.deployeddockercmp(<docker>) => [{'Name':'key1', 'Value':'value1'}]",
