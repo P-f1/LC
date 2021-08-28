@@ -15,7 +15,7 @@ type fnObject2Json struct {
 }
 
 func (fnObject2Json) Name() string {
-	return "object2json.go"
+	return "object2json"
 }
 
 func (fnObject2Json) Sig() (paramTypes []data.Type, isVariadic bool) {
