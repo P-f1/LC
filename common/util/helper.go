@@ -8,6 +8,8 @@ package util
 import (
 	"bufio"
 	"bytes"
+	"encoding/json"
+	"errors"
 	"fmt"
 	"os"
 	"reflect"
@@ -22,6 +24,15 @@ import (
 const (
 	GRAPH_ID = "$GRAPH_ID"
 )
+
+var (
+	SN int64
+)
+
+func GetSN() int64 {
+	SN += 1
+	return SN
+}
 
 func SplitFilename(filename string) (string, string) {
 	if "" != filename {
@@ -90,7 +101,7 @@ func ConvertToInteger(data interface{}) (interface{}, error) {
 	case string:
 		return strconv.ParseInt(data.(string), 10, 32)
 	}
-	return data, fmt.Errorf("Unable to convert to Interger : ", reflect.TypeOf(data).String())
+	return data, fmt.Errorf("Unable to convert to Interger : %s", reflect.TypeOf(data).String())
 }
 
 func ConvertToLong(data interface{}) (interface{}, error) {
@@ -109,7 +120,7 @@ func ConvertToLong(data interface{}) (interface{}, error) {
 	case string:
 		return strconv.ParseInt(data.(string), 10, 64)
 	}
-	return data, fmt.Errorf("Unable to convert to Long : ", reflect.TypeOf(data).String())
+	return data, fmt.Errorf("Unable to convert to Long : %s", reflect.TypeOf(data).String())
 }
 
 func ConvertToString(data interface{}, dateTimeSample string) (interface{}, error) {
@@ -138,8 +149,20 @@ func ConvertToString(data interface{}, dateTimeSample string) (interface{}, erro
 	case time.Time:
 		dateTimeData := data.(time.Time)
 		return dateTimeData.Format(dateTimeSample), nil
+	case map[string]interface{}:
+		bData, err := json.Marshal(data)
+		if nil != err {
+			return nil, err
+		}
+		return string(bData), nil
+	case []interface{}:
+		bData, err := json.Marshal(data)
+		if nil != err {
+			return nil, err
+		}
+		return string(bData), nil
 	}
-	return data, fmt.Errorf("Unable to convert to string : ", data)
+	return data, fmt.Errorf("Unable to convert to string : %s", data)
 }
 
 func ConvertToDouble(data interface{}) (interface{}, error) {
@@ -156,7 +179,7 @@ func ConvertToDouble(data interface{}) (interface{}, error) {
 	case string:
 		return strconv.ParseFloat(data.(string), 64)
 	}
-	return data, fmt.Errorf("Unable to convert to Double : ", reflect.TypeOf(data).String())
+	return data, fmt.Errorf("Unable to convert to Double : %s", reflect.TypeOf(data).String())
 }
 
 func ConvertToBoolean(data interface{}) (interface{}, error) {
@@ -167,7 +190,7 @@ func ConvertToBoolean(data interface{}) (interface{}, error) {
 	case string:
 		return strconv.ParseBool(data.(string))
 	}
-	return data, fmt.Errorf("Unable to convert to Boolean : ", reflect.TypeOf(data).String())
+	return data, fmt.Errorf("Unable to convert to Boolean : %s", reflect.TypeOf(data).String())
 }
 
 func ConvertToDate(data interface{}, dateTimeSample string) (interface{}, error) {
@@ -182,7 +205,7 @@ func ConvertToDate(data interface{}, dateTimeSample string) (interface{}, error)
 		//fmt.Println("after parsing time string : ", intDateData, ", type : ", reflect.TypeOf(intDateData).String())
 		return intDateData, err
 	}
-	return data, fmt.Errorf("Unable to convert to Date : ", reflect.TypeOf(data).String())
+	return data, fmt.Errorf("Unable to convert to Date : %s", reflect.TypeOf(data).String())
 }
 
 func TypeConversion(data interface{}, dataType string, dateTimeSample string) (interface{}, error) {
@@ -346,4 +369,104 @@ func GetValue(value string) string {
 	}
 
 	return value
+}
+
+func CopyMap(orig map[interface{}]interface{}, target map[string]interface{}) {
+	for key, value := range orig {
+		valueType := reflect.TypeOf(value).String()
+		//log.Debug("copyMap --- Key = ", key, ", val = ", value, ", value type = ", valueType)
+		switch valueType {
+		case "map[interface {}]interface {}":
+			subDeployment := make(map[string]interface{})
+			target[key.(string)] = subDeployment
+			CopyMap(value.(map[interface{}]interface{}), subDeployment)
+		case "[]interface {}":
+			target[key.(string)] = CopyArray(value.([]interface{}))
+		case "int":
+			target[key.(string)] = int64(value.(int))
+		default:
+			target[key.(string)] = value
+		}
+	}
+}
+
+func CopyArray(orig []interface{}) []interface{} {
+	target := make([]interface{}, 0)
+	for _, element := range orig {
+		elementType := reflect.TypeOf(element).String()
+		//log.Debug("copyArray --- index = ", index, ", element = ", element, ", element type = ", elementType)
+		switch elementType {
+		case "map[interface {}]interface {}":
+			mapElement := element.(map[interface{}]interface{})
+			subDeployment := make(map[string]interface{})
+			target = append(target, subDeployment)
+			CopyMap(mapElement, subDeployment)
+		case "[]interface {}":
+			target = append(target, CopyArray(element.([]interface{})))
+		case "int":
+			target = append(target, int64(element.(int)))
+		default:
+			target = append(target, element)
+		}
+	}
+	return target
+}
+
+func GetPropertyValue(iValue interface{}, iDtype interface{}) (interface{}, string, error) {
+	/*
+		1. iValue could be any type
+		2. iDtype indicate the true type of property["Value"]
+		3. iDtype == "" or nill -> leave property["Value"] as is
+		4. other wise cast iValue to what iDtype indicate
+	*/
+	var err error
+	if nil != iDtype {
+		dtype := iDtype.(string)
+		iValue, err = TypeConversion(iValue, dtype, "2006-01-02 15:04:05")
+	} else {
+		switch iValue.(type) {
+		case string:
+			iDtype = "String"
+		case int:
+			iDtype = "Integer"
+		case int32:
+			iDtype = "Integer"
+		case int64:
+			iDtype = "Long"
+		case float64:
+			iDtype = "Double"
+		case bool:
+			iDtype = "Boolean"
+		case time.Time:
+			iDtype = "Date"
+		default:
+			err = errors.New("Unknown data type!!")
+			iDtype = "Unknown"
+		}
+	}
+	return iValue, iDtype.(string), err
+}
+
+func GetPropertyElementAsString(key string, property interface{}) string {
+	element := property.(map[string]interface{})[key]
+	if nil != element {
+		//fmt.Println("(f1.hepler.getPropertyElementAsString) before cast to string, element-key = ", key, ", element-value = ", element)
+		return element.(string)
+	}
+	return ""
+}
+
+func GetPropertyElement(key string, property interface{}) interface{} {
+	element := property.(map[string]interface{})[key]
+	if nil != element {
+		return element
+	}
+	return nil
+}
+
+func DeepCopy(a interface{}) interface{} {
+	var b interface{}
+	byt, _ := json.Marshal(a)
+	json.Unmarshal(byt, &b)
+	return b
 }
