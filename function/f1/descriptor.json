@@ -2,10 +2,8 @@
     "name": "f1",
     "type": "flogo:function",
     "version": "0.1.0",
-    "ref": "github.com/P-f1/LC/function/f1",
     "title": "F1 functions",
     "description": "Useful tools and utilities",
-    "homepage": "https://github.com/P-f1/LC/function/f1",
     "functions": [
         {
             "name": "escapek8sid",
