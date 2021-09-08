@@ -30,7 +30,7 @@ import (
 	"sync"
 
 	kwr "github.com/P-f1/LC/common/keywordreplace"
-	"github.com/P-f1/LC/labs-flogo-lib/util"
+	"github.com/P-f1/LC/common/util"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 )

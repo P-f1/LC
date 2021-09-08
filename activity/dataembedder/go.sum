@@ -1,10 +1,8 @@
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/P-f1/LC v0.0.0-20210827123021-185943e43138 h1:j1/KDKB5uGd3iu1KB1i4HP2SRI7zNvHS3DGz566uj7g=
-github.com/P-f1/LC v0.0.0-20210827161833-54a3d71da6a1 h1:KGduFjXtZpPA8xyI41zgxnAgO6Oit+yHm0DWTFgHvmM=
-github.com/P-f1/LC v0.0.0-20210827161833-54a3d71da6a1/go.mod h1:+/WvZ6snWAj4OuC89HUynoW2anWjmx3AHwJ+e7S8Ggk=
+github.com/P-f1/LC v0.0.0-20210907140649-28b46e423df7 h1:wQnByDx0jYBPEk0KAlIeB0/+408K+NlVBkPUTyO25pI=
 github.com/P-f1/LC/common v0.0.0-20210827042246-aea0ab5b6b2a h1:FJkjDPvoPA0yeDZx0H5TH3D/4Ue85JW8Tm1qC7EfaEA=
-github.com/P-f1/LC/common/util v0.0.0-20210827161833-54a3d71da6a1 h1:ZAUpI1X02j4dLGSe68FxE5fvhD/56jmy+3Ga7AfE5iU=
-github.com/P-f1/LC/common/util v0.0.0-20210827161833-54a3d71da6a1/go.mod h1:c+z2ycC3adqFTP+tBWcv77NX8zWr+zlLtOKyqX1oomQ=
+github.com/P-f1/LC/common/util v0.0.0-20210907140649-28b46e423df7 h1:yNzKt4Fvbkd9YNEBaqPWik8fDS9QcCvAz3vLCQUmLBw=
+github.com/P-f1/LC/common/util v0.0.0-20210907140649-28b46e423df7/go.mod h1:c+z2ycC3adqFTP+tBWcv77NX8zWr+zlLtOKyqX1oomQ=
 github.com/P-f1/LC/labs-flogo-lib v0.0.0-20210827032649-07735a4780cd h1:M8JY8BOV/hHCREvtWkIkMlAR2aZ3E2aVxngGWfL2OLE=
 github.com/P-f1/LC/labs-flogo-lib v0.0.0-20210827032649-07735a4780cd/go.mod h1:KDK/xiN5hxgBxuzObNo1x5Taldn8s/MhIYSq6ufH4RQ=
 github.com/TIBCOSoftware/flogo-lib v0.5.8 h1:JX6PcxtyJbya++sKiWhFRADA6UnkSRS/INuTPzOMF0Y=

@@ -10,9 +10,9 @@ import (
 	"errors"
 	"sync"
 
+	"github.com/P-f1/LC/common/util"
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
-	"github.com/P-f1/LC/labs-flogo-lib/util"
 )
 
 var log = logger.GetLogger("tibco-f1-DataEmbedder")

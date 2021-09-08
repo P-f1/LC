@@ -5,12 +5,12 @@
     "author": "TIBCO Software Inc.",
     "type": "flogo:activity",
     "display": {
-       "category": "ModelOps",
+       "category": "LC",
        "visible": true,
        "smallIcon": "dataembedder.png",
        "description": "This activity embed datas to array"
     },
-	"ref": "github.com/P-f1/LC/ModelOps/activity/dataembedder",
+	"ref": "github.com/P-f1/LC/activity/dataembedder",
 	"settings": 	[
 		{
 			"name": "Targets",
